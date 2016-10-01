@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mudit.newnetisland.DocumentsPassport"
+    android:background="@drawable/background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q1: How do I apply for a passport in the new system?"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"
+                android:background="#0d0c0c"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A: For issue of fresh passport and re-issue of passport, you need to fill the application form online via e-Form Submission (preferred) or via Online Form Submission. For Police Clearance Certificate (PCC) also you need to fill the Police Clearance Certificate (PCC) Application Form online via e-Form Submission (preferred) or via Online Form Submission. Under the new system it is mandatory for all applicants, including infants, to be physically present at the Passport Seva Kendra (PSK) to give their biometrics(fingerprints) and photographs."
+                android:textStyle="bold|italic"
+                android:textSize="20sp"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q2: Is it necessary that both parents should have passport before applying for their child&apos;s passport?"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"
+                android:background="#0d0c0c"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A: It is not necessary that both parents should have a passport before applying for their child&apos;s passport. The advantage of either parent holding a valid passport with spouse name endorsed is that it exempts their child from the Police Verification process."
+                android:textStyle="bold|italic"
+                android:textSize="20sp"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q3: I am a pensioner or have a senior's card; can I have a senior's passport?"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"
+                android:background="#0d0c0c"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A: Separate senior's passport is not issued to a senior citizen. They can apply for an ordinary passport with a validity of 10 years. Senior Citizens can be issued a passport on post police verification basis if they submit copy of child's (Age greater than 18) passport, who is staying abroad (with page having parent's name) as an additional document along with their application form."
+                android:textStyle="bold|italic"
+                android:textSize="20sp"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q4: I am a student staying away from my parents. Where do I apply for a passport and what proof of residence do I have to furnish?"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"
+                android:background="#0d0c0c"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A: You can apply at any PSK under a Passport Office (PO) in the state of your current or permanent address. For instance, if you are a student staying in Rohtak (which falls under the jurisdiction of Passport Office (PO), Chandigarh) and your parents are staying in Hissar, which also falls under the jurisdiction of Passport Office (PO), Chandigarh, you may apply at any PSK under Passport Office (PO) Chandigarh. Please indicate your hostel address/the place where you are staying in Rohtak as present address and your parent's address as permanent address. And in case you are studying and staying in Bangalore you may either apply at any of the PSK under Passport Office (PO) Bangalore or under Passport Office (PO) Chandigarh. For proof of residence of your hostel/place of stay, you should provide a Bonafide Letter from authorized signatory of college (On official letter head of UGC recognized College)."
+                android:textStyle="bold|italic"
+                android:textSize="20sp"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q5: I am a married lady and want to apply for a fresh passport. I am unable to provide the prescribed marriage certificate or joint affidavit due to marital discord or separation. What should I do?"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"
+                android:background="#0d0c0c"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A: Such applicants have to submit an Affidavit sworn before First Class Judicial Magistrate or Executive Magistrate on Non-Judicial stamp paper as per specimen provided in Annexure 'K'"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q6: What do I do if I lose my passport?"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"
+                android:background="#0d0c0c"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A: Loss of passport should be immediately reported to the nearest Police Station and to the Passport Office or Indian Mission, if abroad. You can apply for 'Re-issue' of passport at your nearest PSK and submit the required documents along with your passport application form."
+                android:textStyle="bold|italic"
+                android:textSize="20sp"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q7: I applied for my passport 6 months ago and the police verification is still pending? Should I keep waiting or can I apply in the new system?"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"
+                android:background="#0d0c0c"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A: The Regional Passport office (RPO) has embarked on a special pendency clearance drive. Please wait for four weeks. If you still do not receive your passport, please visit the Passport Office (PO)."
+                android:textStyle="bold|italic"
+                android:textSize="20sp"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q8: Why is Police Verification required for issuance of passport?"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"
+                android:background="#0d0c0c"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A: Passport is a very valuable document. Thus, in order to ensure that it does not go in wrong hands, police verification is required for issuance of passport."
+                android:textStyle="bold|italic"
+                android:textSize="20sp"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q9: What is the mode for dispatch of passport?"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"
+                android:background="#0d0c0c"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A: The passport is dispatched by India Post through Speed Post to the present address of the applicant."
+                android:textStyle="bold|italic"
+                android:textSize="20sp"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q10: Can I personally collect my passport from the Regional Passport Office (RPO) once it is prepared?"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"
+                android:background="#0d0c0c"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A: Passport can be collected by the applicant personally over the counter at the RPO only in case of urgency. Applicant will be required to submit an application, stating the reason for urgency, to the respective RPO for same. However the final decision about delivery of passport over the counter is vested with the concerned Regional Passport Officer."
+                android:textStyle="bold|italic"
+                android:textSize="20sp"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q11: The status on the website says that my passport has been 'Dispatched/ Delivered'. But I haven't received it yet. What should I do?"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"
+                android:background="#0d0c0c"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A: We request you to check the delivery status of your passport through India Post's Speed Post Tracking Utility. Based on the displayed status, you may contact the respective speed post center or your nearest Speed Post center to confirm the current status of your consignment. In case the Speed Post authorities are unable to locate your passport consignment or they have returned your passport consignment to the sender then please contact the respective Regional Passport Office for further assistance."
+                android:textStyle="bold|italic"
+                android:textSize="20sp"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q12: Do I need to be personally present to collect the passport from the postman or any of my family members can collect it on my behalf?"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"
+                android:background="#0d0c0c"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A: It is advisable that the applicant himself collect the passport from the postman. In case of absence of the applicant, it is at the discretion of the postman to hand over the envelope to some family member of the applicant by checking their/applicant's ID proof or to return the passport to the issuing Regional Passport Office."
+                android:textStyle="bold|italic"
+                android:textSize="20sp"
+                android:layout_marginBottom="5dp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

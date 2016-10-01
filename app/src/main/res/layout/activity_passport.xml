@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mudit.newnetisland.Passport"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="false">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Documents"
+            android:textStyle="bold|italic"
+            android:textSize="30dp"
+            android:background="@drawable/button"
+            android:id="@+id/docpassport_btn"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/documents"
+            android:drawablePadding="50dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="FAQ'S"
+            android:textStyle="bold|italic"
+            android:textSize="30dp"
+            android:background="@drawable/button"
+            android:id="@+id/faqpassport_btn"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/faq_s"
+            android:drawablePadding="50dp"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mudit.newnetisland.MainActivity"
+    android:background="@drawable/background">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/passport_btn"
+                android:layout_weight="1"
+                android:src="@drawable/passport"
+                android:background="@drawable/button" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/aadharcard_btn"
+                android:layout_weight="1"
+                android:src="@drawable/aadhar"
+                android:background="@drawable/button" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/voterid_btn"
+                android:layout_weight="1"
+                android:src="@drawable/voterid"
+                android:background="@drawable/button" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/onlineapplication_btn"
+                android:layout_weight="1"
+                android:src="@drawable/onlineapplication"
+                android:background="@drawable/button" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/recruitment_btn"
+                android:layout_weight="1"
+                android:src="@drawable/recruitment"
+                android:background="@drawable/button" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/otherservices_btn"
+                android:layout_weight="1"
+                android:src="@drawable/otherservices"
+                android:background="@drawable/button" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/proprietor_btn"
+                android:layout_weight="1"
+                android:src="@drawable/proprietor"
+                android:background="@drawable/button" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/location_btn"
+                android:layout_weight="1"
+                android:src="@drawable/location"
+                android:background="@drawable/button" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
+

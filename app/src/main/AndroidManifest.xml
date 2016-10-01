@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mudit.newnetisland">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="New Net Island"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Location"
+            android:label="Location" />
+        <activity
+            android:name=".Passport"
+            android:label="Passport" />
+        <activity
+            android:name=".Proprietor"
+            android:label="Proprietor" />
+        <activity
+            android:name=".MainActivity"
+            android:label="New Net Island" />
+        <activity
+            android:name=".DocumentsPassport"
+            android:label="Documents Required" />
+        <activity
+            android:name=".FAQsPassport"
+            android:label="FAQ&apos;s" />
+        <activity
+            android:name=".VoterId"
+            android:label="Voter Id" />
+        <activity
+            android:name=".AadharCard"
+            android:label="Aadhar Card" />
+        <activity
+            android:name=".OnlineApplication"
+            android:label="Online Applications" />
+        <activity
+            android:name=".Recruitment"
+            android:label="Recruitment" />
+        <activity android:name=".OtherServices"
+            android:label="Services"></activity>
+    </application>
+
+</manifest>
